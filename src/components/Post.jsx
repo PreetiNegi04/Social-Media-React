@@ -15,7 +15,7 @@ const Post = ({post}) => {
         {post.tags.map(tag => <span className="badge text-bg-primary hashtag" key = {tag}>{tag}</span>)}
       </div>
       <div className="alert alert-success reactions" role="alert">
-        This post has been reacted by { post.reactions} people.
+        This post has been reacted by people.
       </div>
     </div>
   );
